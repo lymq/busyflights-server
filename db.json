@@ -1,0 +1,61 @@
+{
+  "crazyair": [
+    {
+      "airline": "Handmade Air",
+      "price": "393.00",
+      "cabinclass": "Transmitting",
+      "departureAirportCode": "ENV",
+      "destinationAirportCode": "CRO",
+      "departureDate": "11-30-2017 01:46:22",
+      "arrivalDate": "04-04-2018 03:27:14"
+    },
+    {
+      "airline": "Quality-focused Air",
+      "price": "956.00",
+      "cabinclass": "Auto loan account",
+      "departureAirportCode": "REF",
+      "destinationAirportCode": "CON",
+      "departureDate": "07-27-2017 12:08:10",
+      "arrivalDate": "10-26-2017 08:33:53"
+    },
+    {
+      "airline": "Hack Air",
+      "price": "860.00",
+      "cabinclass": "Assurance",
+      "departureAirportCode": "ORE",
+      "destinationAirportCode": "WIT",
+      "departureDate": "04-07-2017 01:24:21",
+      "arrivalDate": "05-17-2017 02:13:34"
+    }
+  ],
+  "toughair": [
+    {
+      "carrier": "Neural Air",
+      "basePrice": "347.00",
+      "tax": "112.00",
+      "discount": 5,
+      "departureAirportName": "PRO",
+      "arrivalAirportName": "INT",
+      "departureDay": 29,
+      "departureMonth": 12,
+      "departureYear": 2017,
+      "returnDay": 27,
+      "returnMonth": 9,
+      "returnYear": 2018
+    },
+    {
+      "carrier": "Tactics Air",
+      "basePrice": "192.00",
+      "tax": "91.00",
+      "discount": 77,
+      "departureAirportName": "TAC",
+      "arrivalAirportName": "CHE",
+      "departureDay": 13,
+      "departureMonth": 2,
+      "departureYear": 2018,
+      "returnDay": 13,
+      "returnMonth": 8,
+      "returnYear": 2018
+    }
+  ]
+}
