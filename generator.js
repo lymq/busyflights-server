@@ -1,6 +1,8 @@
 module.exports = function() {
   let faker = require('faker');
+
   let _ = require('lodash');
+
   let dateFormat = require('dateformat');
 
   let crazyAirFlightsConfig = { min: 3, max: 3 };
@@ -8,7 +10,8 @@ module.exports = function() {
   let toughAirFlightsConfig = { min: 2, max: 2 };
 
   let airline = function() {
-    return _.upperFirst(_.words(faker.random.word(), /[^ ]+/g)[0]) + ' Air';
+    return _.upperFirst(faker.random.words(1)) +
+    faker.random.arrayElement([' Air', ' Airline', '']);
   }
 
   let amount = function() {
@@ -16,7 +19,8 @@ module.exports = function() {
   }
 
   let airportCode = function() {
-    return _.upperCase(faker.random.word().substr(0, 3));
+    let pad = faker.random.words(1).substr(0, 1);
+    return _.upperCase(_.pad(faker.random.words(1), 3, pad)).substr(0, 3);
   }
 
   let departureDate = function() {
@@ -37,7 +41,7 @@ module.exports = function() {
       return {
         airline: airline(),
         price: amount(),
-        cabinclass: _.capitalize(faker.random.word(1)),
+        cabinclass: _.capitalize(faker.random.words(1)),
         departureAirportCode: airportCode(),
         destinationAirportCode: airportCode(),
         departureDate: fdate(ddate),

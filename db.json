@@ -1,61 +1,61 @@
 {
   "crazyair": [
     {
-      "airline": "Handmade Air",
-      "price": "393.00",
-      "cabinclass": "Transmitting",
-      "departureAirportCode": "ENV",
-      "destinationAirportCode": "CRO",
-      "departureDate": "11-30-2017 01:46:22",
-      "arrivalDate": "04-04-2018 03:27:14"
+      "airline": "Frozen Airline",
+      "price": "621.00",
+      "cabinclass": "Metal",
+      "departureAirportCode": "VIR",
+      "destinationAirportCode": "COM",
+      "departureDate": "09-05-2017 03:39:56",
+      "arrivalDate": "05-27-2018 10:13:01"
     },
     {
-      "airline": "Quality-focused Air",
-      "price": "956.00",
-      "cabinclass": "Auto loan account",
-      "departureAirportCode": "REF",
-      "destinationAirportCode": "CON",
-      "departureDate": "07-27-2017 12:08:10",
-      "arrivalDate": "10-26-2017 08:33:53"
+      "airline": "Cotton Airline",
+      "price": "130.00",
+      "cabinclass": "Savings account",
+      "departureAirportCode": "EXE",
+      "destinationAirportCode": "ORC",
+      "departureDate": "06-18-2017 03:41:46",
+      "arrivalDate": "02-28-2018 08:28:42"
     },
     {
-      "airline": "Hack Air",
-      "price": "860.00",
-      "cabinclass": "Assurance",
-      "departureAirportCode": "ORE",
-      "destinationAirportCode": "WIT",
-      "departureDate": "04-07-2017 01:24:21",
-      "arrivalDate": "05-17-2017 02:13:34"
+      "airline": "Sleek Soft Shoes",
+      "price": "961.00",
+      "cabinclass": "Parkways",
+      "departureAirportCode": "HAR",
+      "destinationAirportCode": "GEN",
+      "departureDate": "06-11-2017 09:54:22",
+      "arrivalDate": "03-17-2019 08:18:19"
     }
   ],
   "toughair": [
     {
-      "carrier": "Neural Air",
-      "basePrice": "347.00",
-      "tax": "112.00",
-      "discount": 5,
-      "departureAirportName": "PRO",
-      "arrivalAirportName": "INT",
-      "departureDay": 29,
+      "carrier": "Checking Account Air",
+      "basePrice": "161.00",
+      "tax": "27.00",
+      "discount": 52,
+      "departureAirportName": "EXE",
+      "arrivalAirportName": "SUP",
+      "departureDay": 1,
       "departureMonth": 12,
       "departureYear": 2017,
-      "returnDay": 27,
-      "returnMonth": 9,
+      "returnDay": 21,
+      "returnMonth": 5,
       "returnYear": 2018
     },
     {
-      "carrier": "Tactics Air",
-      "basePrice": "192.00",
-      "tax": "91.00",
-      "discount": 77,
-      "departureAirportName": "TAC",
-      "arrivalAirportName": "CHE",
-      "departureDay": 13,
-      "departureMonth": 2,
-      "departureYear": 2018,
-      "returnDay": 13,
-      "returnMonth": 8,
-      "returnYear": 2018
+      "carrier": "Synthesizing",
+      "basePrice": "332.00",
+      "tax": "58.00",
+      "discount": 95,
+      "departureAirportName": "VIO",
+      "arrivalAirportName": "SHI",
+      "departureDay": 2,
+      "departureMonth": 5,
+      "departureYear": 2017,
+      "returnDay": 9,
+      "returnMonth": 2,
+      "returnYear": 2019
     }
   ]
 }
